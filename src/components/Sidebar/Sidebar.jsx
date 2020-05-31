@@ -21,7 +21,7 @@ let Sidebar = (props) => {
                 {!props.toWatch.length ? <h5 className='m-3'>Click "Add movie"</h5> : null}
                 <div>{mappedToWatchList}</div>
             </div>
-            <button onClick={handleClick} className='btn btn-primary'>WATCH LIST</button>
+            <button onClick={handleClick} className='btn btn-primary watchListBtn'>WATCH LIST</button>
         </>
     )
 }
