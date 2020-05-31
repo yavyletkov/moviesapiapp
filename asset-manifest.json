@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/moviesapiapp/static/css/main.3bf0416c.chunk.css",
-    "main.js": "/moviesapiapp/static/js/main.024dac5c.chunk.js",
-    "main.js.map": "/moviesapiapp/static/js/main.024dac5c.chunk.js.map",
+    "main.css": "/moviesapiapp/static/css/main.af6a8dc9.chunk.css",
+    "main.js": "/moviesapiapp/static/js/main.9e1eff6d.chunk.js",
+    "main.js.map": "/moviesapiapp/static/js/main.9e1eff6d.chunk.js.map",
     "runtime-main.js": "/moviesapiapp/static/js/runtime-main.6525f9ef.js",
     "runtime-main.js.map": "/moviesapiapp/static/js/runtime-main.6525f9ef.js.map",
     "static/js/2.15f1efc7.chunk.js": "/moviesapiapp/static/js/2.15f1efc7.chunk.js",
     "static/js/2.15f1efc7.chunk.js.map": "/moviesapiapp/static/js/2.15f1efc7.chunk.js.map",
     "index.html": "/moviesapiapp/index.html",
-    "precache-manifest.a6c7b0128a74bf44c225e33b36eaa8d3.js": "/moviesapiapp/precache-manifest.a6c7b0128a74bf44c225e33b36eaa8d3.js",
+    "precache-manifest.534605c296695224c0981c13c6870c78.js": "/moviesapiapp/precache-manifest.534605c296695224c0981c13c6870c78.js",
     "service-worker.js": "/moviesapiapp/service-worker.js",
-    "static/css/main.3bf0416c.chunk.css.map": "/moviesapiapp/static/css/main.3bf0416c.chunk.css.map",
+    "static/css/main.af6a8dc9.chunk.css.map": "/moviesapiapp/static/css/main.af6a8dc9.chunk.css.map",
     "static/js/2.15f1efc7.chunk.js.LICENSE.txt": "/moviesapiapp/static/js/2.15f1efc7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6525f9ef.js",
     "static/js/2.15f1efc7.chunk.js",
-    "static/css/main.3bf0416c.chunk.css",
-    "static/js/main.024dac5c.chunk.js"
+    "static/css/main.af6a8dc9.chunk.css",
+    "static/js/main.9e1eff6d.chunk.js"
   ]
 }
