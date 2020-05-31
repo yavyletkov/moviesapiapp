@@ -4,8 +4,6 @@
 }
 
 .App {
-  display: grid;
-  grid-template-columns: 1fr 200px;
   /*height: 100vh;*/
 }
 
@@ -37,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.tabs {
+  cursor: pointer;
+}
+
+.btn-primary {
+  position: fixed;
+  top: 1rem;
+  right: 1rem
 }

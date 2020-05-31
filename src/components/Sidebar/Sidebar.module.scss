@@ -1,12 +1,26 @@
 .sidebar {
-  background-color: #b3e2fb;
+  background-color: #ffffff;
   position: fixed;
   width: 200px;
   height: 100vh;
+  top: 0;
   right: 0;
   overflow: auto;
+  transition: all 300ms;
+  -webkit-box-shadow: 2px 0px 18px 3px rgba(0,0,0,0.21);
+  -moz-box-shadow: 2px 0px 18px 3px rgba(0,0,0,0.21);
+  box-shadow: 2px 0px 18px 3px rgba(0,0,0,0.21);
+  color: #2a2a2a;
+  padding-top: 4rem;
 }
 
-.header {
-
+.sidebar.opened {
+  right: -200px;
 }
+
+.arrow {
+  font-size: 30px;
+  color: #2a2a2a;
+  //margin-left: 5px;
+}
+

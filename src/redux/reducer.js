@@ -34,11 +34,21 @@ const reducer = (state = initialState, action) => {
 }
 
 export let getMovies = (sortBy, page) => (dispatch) => {
+
     API.getMovies(sortBy, page)
         .then(response => {
-            console.log('ITEM', response.results[0])
             dispatch(setMovies(response.results));
         })
+
+    // fetch(`https://api.themoviedb.org/3/discover/movie?api_key=999980599119f1890b5daf0c2e763b81&language=en-EN&sort_by=${sortBy}&page=${page}`)
+    //     .then(response => {
+    //         debugger
+    //         return response.json()
+    //     })
+    //     .then(data => {
+    //         debugger
+    //         dispatch(setMovies(data.results));
+    //     })
 }
 
 export let setMovies = (movies) => {return {type: 'SET-MOVIES', movies}};
